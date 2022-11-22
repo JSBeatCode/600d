@@ -8,17 +8,17 @@
     <div style="position:relative">
       <div class="heart-btn">
         <div class="content">
-          <!-- <span class="heart"></span>
-          <span class="text"></span> -->
+          <span class="heart"></span>
+          <span class="text"></span>
           <span class="numb"></span>
         </div>
       </div>
     </div>
     <br>
     <br>
-    <img src="../resources/jjidol1.jpg" class="rounded" alt="..." style="width:100px;height:100px">
-    <img src="../resources/nana1.jpg" class="rounded" alt="..." style="width:100px;height:100px">
-    <img src="../resources/nana-jjidol1.jpg" class="rounded" alt="..." style="width:100px;height:100px">
+    <img src="../assets/jjidol1.jpg" class="rounded" alt="..." style="width:100px;height:100px">
+    <img src="../assets/nana1.jpg" class="rounded" alt="..." style="width:100px;height:100px">
+    <img src="../assets/nana-jjidol1.jpg" class="rounded" alt="..." style="width:100px;height:100px">
     <br>
     <br>
   </div>
@@ -35,18 +35,18 @@
       <div class="carousel-inner">
         <div class="carousel-item" data-bs-interval="3000">
 
-            <img src="../resources/love1.jpg" class="rounded" alt="..." style="width:50%;height:50%">
+            <img src="../assets/love1.jpg" class="rounded" alt="..." style="width:50%;height:50%">
             <rect width="100%" height="100%" fill="#777"></rect>
 
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="../resources/love2.jpg" class="rounded" alt="..." style="width:50%;height:50%">
+          <img src="../assets/love2.jpg" class="rounded" alt="..." style="width:50%;height:50%">
 
             <rect width="100%" height="100%" fill="#666"></rect>
 
         </div>
         <div class="carousel-item active" data-bs-interval="3000">
-          <img src="../resources/love3.jpg" class="rounded" alt="..." style="width:50%;height:50%">
+          <img src="../assets/love3.jpg" class="rounded" alt="..." style="width:50%;height:50%">
 
             <rect width="100%" height="100%" fill="#555"></rect>
 
@@ -152,7 +152,7 @@ export default {
 
 .heart {
   position: absolute;
-  /*background: url("../resources/img.png") no-repeat;*/
+  background: url("../assets/img.png") no-repeat;
   background-position: left;
   background-size: 2900%;
   height: 90px;
@@ -170,7 +170,7 @@ export default {
 }
 
 .numb:before {
-  content: '♡ I Love You';
+  content: 'I Love You';
   font-size: 21px;
   margin-left: 7px;
   font-weight: 600;
@@ -179,7 +179,7 @@ export default {
 }
 
 .numb.heart-active:before {
-  content: '♥ Forever';
+  content: 'Forever';
   color: #000;
 }
 

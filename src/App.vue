@@ -60,7 +60,7 @@ section {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: url(./resources/bg0.jpg);
+  background: url(./assets/bg0.jpg);
   background-position-x: center;
   background-size: cover;
   animation: animateBg 50s linear infinite;
